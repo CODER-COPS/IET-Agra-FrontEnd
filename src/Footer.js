@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Footer(){
     return (
-        <Footer>
+        <footer>
             <span>Copywrite@Coder-cops</span>
             <a href="#">Feedback</a>
-        </Footer>
+        </footer>
     )
 }
