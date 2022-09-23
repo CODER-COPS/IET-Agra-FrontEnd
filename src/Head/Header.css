@@ -1,0 +1,20 @@
+Header {
+    display: flex;
+    background-color: coral;
+    justify-content: space-between;
+    font-size: 80%;
+  
+  
+  }
+  
+Header li{
+    display: inline-block;
+    justify-content: space-evenly;
+    padding: 0px 5px 0px 5px;
+}
+
+button{
+    margin: 10px 10px 10px 0px;
+    padding: 2px;
+    
+}
