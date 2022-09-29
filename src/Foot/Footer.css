@@ -4,5 +4,8 @@ span{
     justify-content: center;
     color: white;
     background-color: black;
+}
 
+a{
+    margin-left: 15px;
 }
