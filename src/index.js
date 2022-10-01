@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Header from './Header';
-import Footer from './Footer';
+import Header from './Head/Header';
+import Footer from './Foot/Footer';
+import Leftcontainer from './container/container-ms';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
     <App />
+    <Leftcontainer />
     <Footer/>
   </React.StrictMode>
 );
