@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import logo from './image.png';
+import BootstrapCarousel from './BootstrapCarousel'
 
 function App() {
   return (
@@ -11,7 +12,6 @@ function App() {
 
 <Navbar.Brand>
           <img src={logo} width="40px" height="40px" />{' '}
-          Home
         </Navbar.Brand>
 
         <Navbar.Toggle className="coloring" />
@@ -29,9 +29,7 @@ function App() {
         </Navbar.Collapse>
 
       </Navbar>
-      <header className="App-header">
-        <h1>IET</h1>
-      </header>
+      <BootstrapCarousel/>
     </div>
   );
 }

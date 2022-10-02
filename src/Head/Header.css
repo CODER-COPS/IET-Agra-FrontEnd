@@ -3,8 +3,6 @@ Header {
     background-color: coral;
     justify-content: space-between;
     font-size: 80%;
-  
-  
   }
   
 Header li{
@@ -16,5 +14,4 @@ Header li{
 button{
     margin: 10px 10px 10px 0px;
     padding: 2px;
-    
 }
