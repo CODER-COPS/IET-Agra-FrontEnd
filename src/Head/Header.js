@@ -1,13 +1,13 @@
 import React from "react";
+import Button from 'react-bootstrap/Button';
+
 
 
 export default function Header() {
     return (
-        <div className="Header">
-        <header>
-            <button>Admission</button>
-        </header>
-        </div>
+        <headers>
+            <Button variant="secondary">Admission</Button>{' '}
+        </headers>
     )
 }
 

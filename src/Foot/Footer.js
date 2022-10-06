@@ -6,8 +6,6 @@ export default function Footer(){
         <footer>
             <span>Copywrite@Coder-cops
             <a href="#">Feedback</a></span>
-            
-            
         </footer>
     )
 }
